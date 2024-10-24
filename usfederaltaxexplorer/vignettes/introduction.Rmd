@@ -20,15 +20,19 @@ library(usfederaltaxexplorer)
 
 ## Introduction to `usfederaltaxexplorer`
 
-`usfederaltaxexplorer` provides Shiny app that allows users to input their yearly income and filing status to see what their tax dollars are funding.
+`usfederaltaxexplorer` provides a Shiny app that allows users to input their yearly income and filing status to see what their tax dollars are funding.
 
 This vignette will walk you through how to install the package, load the data, and use the Shiny app.
 
 ## Install `usfederaltaxexplorer` from GitHub
-if (!requireNamespace("remotes", quietly = TRUE)) {
-  install.packages("remotes")
-}
-remotes::install_github("trut0001/usfederaltaxexplorer")
+
+You can install using remotes or devtools:
+```{r eval=FALSE}
+remotes::install_github("ETC5523-2024/assignment-4-packages-and-shiny-apps-trut0001/usfederaltaxexplorer")
+or
+devtools::install_github("ETC5523-2024/assignment-4-packages-and-shiny-apps-trut0001/usfederaltaxexplorer")
+```
+
 
 ## Data
 
@@ -36,9 +40,12 @@ There is no data to download or access. This is a low barrier app that you can u
 
 ## Launch the Shiny app
 
-To launch the app, simply enter the following in the R console:
+To launch the app, simply load the library and run the following code in the R console:
 
+```{r eval = FALSE}
+library(usfederaltaxexplorer)
 usfederaltaxexplorer::run_app()
+```
 
 ## Using the Shiny App
 
@@ -54,4 +61,4 @@ After launching the app using `usfederaltaxexplorer::run_app()`, follow these st
 
 ## More Information
 
-For further information, visit the [pkgdown site](https://yourusername.github.io/mypackage) or the [official documentation](https://pkgdown.yoursite.com/).
+For further information, visit the [pkgdown site](https://github.com/ETC5523-2024/assignment-4-packages-and-shiny-apps-trut0001/tree/main/usfederaltaxexplorer) or the [official documentation](https://pkgdown.yoursite.com/).
