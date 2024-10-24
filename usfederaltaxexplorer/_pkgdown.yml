@@ -1,4 +1,6 @@
-url: ~
-template:
-  bootstrap: 5
+home:
+  title: "US Federal Tax Explorer"
+  description: >
+    A Shiny app to explore how your US tax dollars are distributed across various government programs.
 
+url: https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-trut0001/

@@ -34,7 +34,9 @@ library(usfederaltaxexplorer)
 usfederaltaxexplorer::run_app()
 ```
 
-For more detailed instructions, see the vignette:
+For more detailed instructions, visit the [pkgdown
+website](https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-trut0001/)
+or see the vignette:
 
 ``` r
 vignette("introduction", package = "usfederaltaxexplorer")

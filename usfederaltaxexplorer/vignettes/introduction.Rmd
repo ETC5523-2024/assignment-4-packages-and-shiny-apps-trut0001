@@ -2,7 +2,7 @@
 title: "US Federal Tax Explorer"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{introduction}
+  %\VignetteIndexEntry{US Federal Tax Explorer}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -61,4 +61,4 @@ After launching the app using `usfederaltaxexplorer::run_app()`, follow these st
 
 ## More Information
 
-For further information, visit the [pkgdown site](https://github.com/ETC5523-2024/assignment-4-packages-and-shiny-apps-trut0001/tree/main/usfederaltaxexplorer) or the [official documentation](https://pkgdown.yoursite.com/).
+For further information, visit the [pkgdown site](https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-trut0001/) or the [official documentation](https://pkgdown.yoursite.com/).

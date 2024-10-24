@@ -17,4 +17,7 @@ Suggests:
 VignetteBuilder: knitr
 Imports: 
     dplyr,
-    shiny
+    shiny,
+    scales
+URL: https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-trut0001
+BugReports: https://github.com/ETC5523-2024/assignment-4-packages-and-shiny-apps-trut0001/issues
