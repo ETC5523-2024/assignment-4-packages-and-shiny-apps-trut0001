@@ -76,7 +76,7 @@ ui <- fluidPage(
     federal government. The second field is Dollars, which is the dollar
     amount of your taxes that are being aportioned for each program.
     For example, if you see 'Defense $1000`, that means $1000 of your taxes
-    are being used for defense for the yaer.",
+    are being used for defense for the year.",
     style = "font-size: 16px; margin-bottom: 20px;"
   ),
 
