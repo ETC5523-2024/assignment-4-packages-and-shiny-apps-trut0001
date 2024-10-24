@@ -65,7 +65,7 @@ ui <- fluidPage(
   ),
 
   tags$p(
-    "Every year Americans file their federal taxes to fun different programs
+    "Every year Americans file their federal taxes to fund different programs
     such as healthcare, defense, social programs, infrastructure, and more.
     Understanding where your tax dollars go is helpful in public discourse and civics,
     especially during elections. This app allows you to input your yearly
