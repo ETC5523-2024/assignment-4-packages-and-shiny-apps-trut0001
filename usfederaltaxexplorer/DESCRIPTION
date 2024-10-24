@@ -1,0 +1,20 @@
+Package: usfederaltaxexplorer
+Title: Explore What Your US Tax Dollars Are Funding
+Version: 0.0.0.9000
+Authors@R: 
+    person("Travis", "Rutledge", email = "trut0001@student.monash.edu", role = c("aut", "cre"))
+Description: This package contains a Shiny app that allows users to explore how their US tax dollars 
+    are allocated across various federal programs. By inputting their annual income and marital status, 
+    the app estimates the user's federal taxes and provides a breakdown of the funds allocated to 
+    healthcare, defense, education, and other programs.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: 
+    dplyr,
+    shiny

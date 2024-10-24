@@ -1,0 +1,57 @@
+---
+title: "US Federal Tax Explorer"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup, echo = FALSE}
+library(usfederaltaxexplorer)
+```
+
+## Introduction to `usfederaltaxexplorer`
+
+`usfederaltaxexplorer` provides Shiny app that allows users to input their yearly income and filing status to see what their tax dollars are funding.
+
+This vignette will walk you through how to install the package, load the data, and use the Shiny app.
+
+## Install `usfederaltaxexplorer` from GitHub
+if (!requireNamespace("remotes", quietly = TRUE)) {
+  install.packages("remotes")
+}
+remotes::install_github("trut0001/usfederaltaxexplorer")
+
+## Data
+
+There is no data to download or access. This is a low barrier app that you can use immediately. 
+
+## Launch the Shiny app
+
+To launch the app, simply enter the following in the R console:
+
+usfederaltaxexplorer::run_app()
+
+## Using the Shiny App
+
+After launching the app using `usfederaltaxexplorer::run_app()`, follow these steps:
+
+1. **Enter your yearly income**: Provide your annual income in USD.
+2. **Select your filing status**: Choose between "Single" or "Married Jointly".
+3. **Click "Calculate"**: The app will show how your federal tax dollars are distributed across key programs.
+
+## Interpreting the Results
+- The table displays the amount (in USD) allocated to various programs such as healthcare, defense, and education.
+- Use these insights to understand how your tax dollars are being spent.
+
+## More Information
+
+For further information, visit the [pkgdown site](https://yourusername.github.io/mypackage) or the [official documentation](https://pkgdown.yoursite.com/).
