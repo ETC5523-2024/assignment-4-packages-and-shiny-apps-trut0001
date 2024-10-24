@@ -1,33 +1,36 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# usfederaltaxexplorer
+# US Federal Tax Explorer
 
 <!-- badges: start -->
+
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
 <!-- badges: end -->
 
-The purpose of usfederaltaxexplorer is to allow you to explore where your US tax
-dollars are going. Within the app, you input your income for the year
-and your marital status. The app then calculates your estimated federal
-taxes paid and where those dollars went.
+The usfederaltaxexplorer package allows you to explore how your US
+federal taxes are allocated across various federal programs. Using the
+app, you can input your annual income and marital status, and the app
+will estimate your federal taxes and show where those dollars go.
 
 ## Installation
 
-You can install the development version of mypackage from
+You can install the development version of usfederaltaxexplorer from
 [GitHub](https://github.com/) with:
 
 ``` r
+# Install devtools if you don't already have it
 # install.packages("devtools")
-devtools::install_github("ETC5523-2024/assignment-4-packages-and-shiny-apps-trut0001")
+devtools::install_github("ETC5523-2024/assignment-4-packages-and-shiny-apps-trut0001/usfederaltaxexplorer")
 ```
 
 ## Use
 
-To use the app, simply load the library and then run the app with the
-following command:
+After installation, load the library and launch the app with:
 
 ``` r
-library(mypackage)
+library(usfederaltaxexplorer)
 usfederaltaxexplorer::run_app()
 ```
 
