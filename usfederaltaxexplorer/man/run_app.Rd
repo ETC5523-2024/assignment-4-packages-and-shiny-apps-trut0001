@@ -7,8 +7,13 @@
 run_app()
 }
 \value{
-A Shiny app object
+A Shiny app object.
 }
 \description{
-This function launches the Shiny app included in the package.
+This function launches the Shiny app for exploring how US federal taxes are distributed.
+}
+\examples{
+if (interactive()) {
+  usfederaltaxexplorer::run_app()
+}
 }
